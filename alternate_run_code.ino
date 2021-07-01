@@ -4,7 +4,7 @@ SoftwareSerial bluetooth(0, 1);  //RX,TX
 String readstring;
 Servo head;
 int directionSwitch = 1;         //1-forward, 2=reverse
-int sped = 0;
+int sped = 0; 
 int handbrake_stat = 1;
 int angle = 95;
 int parking = 0;
